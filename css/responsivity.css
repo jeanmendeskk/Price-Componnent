@@ -1,0 +1,45 @@
+@media (min-width: 650px) {
+    .down {
+        display: flex;
+        align-items: center;
+    }
+    .left, .right {
+        width: 100%;
+        padding: 2.5rem;
+    }
+    main {
+        max-width: 640px;
+        padding: 0;
+    }
+    
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .up {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        padding: 2.5rem;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .up p:nth-of-type(1) {
+        font-size: 1.125rem;
+    }
+
+    .up p:nth-of-type(2){
+        font-size: 1rem;
+    }
+
+    .left {
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    .right {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0.8rem;
+    }
+}
